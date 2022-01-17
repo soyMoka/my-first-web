@@ -1,0 +1,59 @@
+html {
+      /*   this is the patern of the background   */
+      background-color: hsl(186, 47%, 44%);
+      opacity: 0.9;
+      background-image:  linear-gradient(30deg, #35dea9 12%, transparent 12.5%, transparent 87%, #35dea9 87.5%, #35dea9), linear-gradient(150deg, #35dea9 12%, transparent 12.5%, transparent 87%, #35dea9 87.5%, #35dea9), linear-gradient(30deg, #35dea9 12%, transparent 12.5%, transparent 87%, #35dea9 87.5%, #35dea9), linear-gradient(150deg, #35dea9 12%, transparent 12.5%, transparent 87%, #35dea9 87.5%, #35dea9), linear-gradient(60deg, #35dea977 25%, transparent 25.5%, transparent 75%, #35dea977 75%, #35dea977), linear-gradient(60deg, #35dea977 25%, transparent 25.5%, transparent 75%, #35dea977 75%, #35dea977);
+      background-size: 42px 74px;
+      background-position: 0 0, 0 0, 21px 37px, 21px 37px, 0 0, 21px 37px;
+      
+} 
+
+body{
+
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size:15px;
+    letter-spacing: 0.8px;
+    width: 800px;
+    padding: 20px 20px 20px 20px;
+    margin: 0 auto;
+    background-color: rgba(33, 58, 82, 0.479);
+    border-radius: 50px;
+  
+}
+.contenedor{
+    
+}
+h1{
+    text-align: center;
+
+}
+.img{
+    display: block;
+    margin: auto;
+
+
+    border-style:outset ;
+    border-width: 10px;
+    border-color:rgba(17, 58, 37, 0.438);
+}
+
+.footer  a:hover{
+    font-size: 20px;
+}
+
+/*.footer hr{  
+    
+        border: 0;
+        height: 0;
+        box-shadow: 0 0 10px 5px #0b3629;
+      
+}*/
+.footer p {
+    text-align: center;
+}
+hr {
+    border: 0;
+    border-top: 9px double #232a50;
+    text-align: center;
+  }
+  
